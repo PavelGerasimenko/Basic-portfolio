@@ -2,13 +2,12 @@ body {
 	margin: 0;
 	padding: 0;
 	width: auto;
-	border: 2px solid green;
-  
+	background: url(https://www.toptal.com/designers/subtlepatterns/patterns/concrete_seamless.png);
 }
 header {
-	background: #777;
+	background: #ffffff;
 	color: black;
-	font: Arial;
+	font-family: 'Georgia', 'Times', 'Times New Roman', 'Serif';
 	position: relative;
 	top: 0;
 	width: 100%;
@@ -16,10 +15,15 @@ header {
 }
 .name {
 	
-	background: green;
+	color: white;
+	background: rgb(36, 130, 117);
 	padding: 10px;
 	margin: 0 0 0 8%;
 	float: left;
+}
+.abm {
+	color: rgb(36, 130, 117);
+	padding-left: 4%
 }
 nav { 
 	float: right;
@@ -32,37 +36,63 @@ nav {
 
 .pic1 {
 	float: left;
-	padding-left: 4%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 3%;
+
 }
 
 .content1 {
-	content: left;
-	padding-left: 4%;
-	padding-right: 4%;
+	float: left;
+	padding-left: 5%;
+	padding-right: 5%;
 }
-.pic2 {
-	float: right;
-	padding: 0 4% 4% 0;
+.conme {
+	color: rgb(36, 130, 117);
+	text-align: center;
+	
 }
-section {
+section{
 		float: left;
-		border: 1px solid black;
-		width: 550px;
-		margin: 6% 0 0 4% 
+  		margin: 3% 1.5%;
+  		width: 46%;
+  		border: 1px solid #dddddd;
+  		background-color: #ffffff;
+  		line-height: 180%;
+  	}
+
+article 	{
+		float: center;
+		padding: 0 2% 2% 2%;
 	}
 aside 	{
-		float: right;
-		border: 1px solid black;
-		width: 250px;
-		margin: 6% 6% 0 0;
+  		float: left;
+  		margin: 3% 0 0 2%;
+  		width: 18%;
+  		border: 1px solid #dddddd;
+  		background-color: #ffffff;
+  		position: relative;
 	}
+
+div {
+	margin-left: 14%;
+	margin-top: 0;
+	margin-bottom: 8%
+}
 footer {
 		position: fixed;
 		bottom: 0;
 		width: 100%;
-		border: 1px solid black;
 		float: center;
-		padding: 17px 0 17px 0;
-		text-align: center
+		padding: 8px 0 8px 0;
+		text-align: center;
+		background-color: #666666;
+		border: 8px solid rgb(36, 130, 117);
+		border-right: 8px;
+		border-bottom: 8px;
+		border-left: 8px;
 
 	}
+.foot {
+	color: lightgrey;
+}
