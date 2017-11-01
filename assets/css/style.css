@@ -1,0 +1,68 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: auto;
+	border: 2px solid green;
+  
+}
+header {
+	background: #777;
+	color: black;
+	font: Arial;
+	position: relative;
+	top: 0;
+	width: 100%;
+	float: left;
+}
+.name {
+	
+	background: green;
+	padding: 10px;
+	margin: 0 0 0 8%;
+	float: left;
+}
+nav { 
+	float: right;
+	margin: 1.4% 13% 0 0;
+}
+
+.a2 {
+	padding-left: 4%;
+}
+
+.pic1 {
+	float: left;
+	padding-left: 4%;
+}
+
+.content1 {
+	content: left;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+.pic2 {
+	float: right;
+	padding: 0 4% 4% 0;
+}
+section {
+		float: left;
+		border: 1px solid black;
+		width: 550px;
+		margin: 6% 0 0 4% 
+	}
+aside 	{
+		float: right;
+		border: 1px solid black;
+		width: 250px;
+		margin: 6% 6% 0 0;
+	}
+footer {
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		border: 1px solid black;
+		float: center;
+		padding: 17px 0 17px 0;
+		text-align: center
+
+	}
