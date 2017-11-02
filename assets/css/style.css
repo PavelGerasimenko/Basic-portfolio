@@ -12,6 +12,8 @@ header {
 	top: 0;
 	width: 100%;
 	float: left;
+	border-bottom: 2px solid lightgrey;
+
 }
 .name {
 	
@@ -20,14 +22,25 @@ header {
 	padding: 10px;
 	margin: 0 0 0 8%;
 	float: left;
+	line-height: 200%
+}
+
+.p1 {
+    border: none;
+    color: lightgrey; 
+    background-color:  lightgrey; 
+    height: 3px; 
+    margin:1% 5% 4% 5%;
 }
 .abm {
 	color: rgb(36, 130, 117);
-	padding-left: 4%
+	padding-left: 5%
 }
 nav { 
 	float: right;
-	margin: 1.4% 13% 0 0;
+	margin: 1.8% 24.5% 0 0%;
+	color: lightgrey;
+	/*'Arial', 'Helvetica Neue', Helvetica, sans-serif; choose one of*/ 
 }
 
 .a2 {
@@ -54,7 +67,7 @@ nav {
 }
 section{
 		float: left;
-  		margin: 3% 1.5%;
+  		margin: 3% 1.5% 0 8%;
   		width: 46%;
   		border: 1px solid #dddddd;
   		background-color: #ffffff;
@@ -63,7 +76,9 @@ section{
 
 article 	{
 		float: center;
-		padding: 0 2% 2% 2%;
+		padding: 0 2% 2% 5%;
+		font-family: 'Georgia', 'Times', 'Times New Roman', 'Serif';
+		color: #777777;
 	}
 aside 	{
   		float: left;
@@ -73,6 +88,13 @@ aside 	{
   		background-color: #ffffff;
   		position: relative;
 	}
+.p2 {
+	border: none; 
+    color: #777777; 
+    background-color: #777777;
+    height: 1px; 
+    margin: 2% 12% 8% 15%;
+}
 
 div {
 	margin-left: 14%;
