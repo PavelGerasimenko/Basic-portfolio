@@ -73,7 +73,39 @@ section{
   		background-color: #ffffff;
   		line-height: 180%;
   	}
+.contact {
+		float: left;
+  		margin: 3% 1.5% 0 8%;
+  		width: 46%;
+  		border: 1px solid #dddddd;
+  		background-color: #ffffff;
+  		line-height: 180%;
+}
+.txt {
+	width: 100%;
+	line-height: 180%;
+}
+.textarea {
+	width: 101.1%;
+	height: 80px;
+    box-sizing: border-box;
+    resize: none;
+    padding: 0 0 53px 0;
+    line-height: 1em
 
+}
+.sbtbutton {
+	background: rgb(36, 130, 117);
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 10px
+
+}
 article 	{
 		float: center;
 		padding: 0 5% 2% 5%;
@@ -91,7 +123,7 @@ aside 	{
 .p2 {
 	border: none; 
     color: #777777; 
-    background-color: #777777;
+    background-color: lightgrey;
     height: 1px; 
     margin: 2% 12% 8% 15%;
 }
