@@ -24,6 +24,7 @@ header {
 	line-height: 200%
 }
 
+
 .p1 {
     border: none;
     color: lightgrey; 
@@ -51,7 +52,19 @@ nav {
 	padding-left: 5%;
 	padding-right: 5%;
 	padding-bottom: 3%;
-
+}
+.pf {
+	position: relative;
+	float: left;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 3%;
+}
+.pf2 {
+	position: relative;
+	float: right;
+	padding-right: 5%;
+	padding-bottom: 3%;
 }
 
 .content1 {
@@ -128,7 +141,7 @@ aside 	{
 }
 
 div {
-	margin-left: 14%;
+	margin-left: 13%;
 	margin-top: 0;
 	margin-bottom: 8%
 }
@@ -137,7 +150,7 @@ footer {
 		bottom: 0;
 		width: 100%;
 		float: center;
-		padding: 8px 0 8px 0;
+		padding: 2px 0 2px 0;
 		text-align: center;
 		background-color: #666666;
 		border: 8px solid rgb(36, 130, 117);
